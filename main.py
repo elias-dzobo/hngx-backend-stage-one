@@ -15,8 +15,8 @@ def stage_config(slack_name: str, track: str):
         'current_day': week_days[int(datetime.now().date().strftime('%w'))],
         'utc_time': datetime.utcnow().replace(tzinfo=timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'track': track,
-        'github_file_url': '',
-        'github_repo_url': '',
+        'github_file_url': 'https://github.com/elias-dzobo/hngx-backend-stage-one/blob/main/main.py',
+        'github_repo_url': 'https://github.com/elias-dzobo/hngx-backend-stage-one',
         'status_code': 200
     }
 
