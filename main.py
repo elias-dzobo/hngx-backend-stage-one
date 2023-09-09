@@ -20,6 +20,6 @@ def stage_config(slack_name: str, track: str):
         'status_code': 200
     }
 
-    data = json.dumps(response)
+    return response
 
-    return data 
+
